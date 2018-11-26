@@ -7,21 +7,9 @@ def summon_captain_planet(array)
   new_array = []
   array.collect do |x|
     x = x.capitalize
-    new_array "#{x.capitalize}!"
-    
+    new_array << x
   end
 end
-
-
-def reverse_each_word(argument)
-  new_string = []
-  argument.split.collect do |x|
-    x = x.reverse
-    new_string << x
-  end
-  new_string.join(" ")
-end
-
 
 
 def long_planeteer_calls# code an argument here
